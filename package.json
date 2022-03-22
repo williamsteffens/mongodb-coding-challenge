@@ -2,9 +2,9 @@
   "name": "mongodb-coding-challenge",
   "version": "1.0.0",
   "description": "mongoDB Coding Challenge - flattenJSON",
-  "main": "index.js",
+  "main": "src/flattenJSON.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/williamsteffens/mongodb-coding-challenge/issues"
   },
   "homepage": "https://github.com/williamsteffens/mongodb-coding-challenge#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
     "jest": "^27.5.1"
   }
 }
