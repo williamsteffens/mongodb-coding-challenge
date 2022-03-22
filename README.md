@@ -4,10 +4,10 @@ I chose to implement the JSON flattener in Node.js using Jest as the testing fra
 
 ## Running the Program
 
-As requested, the program accepts input via stdin and the command line corresponds to the linux conventions, as seen below.
+As requested, the program accepts input via stdin and the command line corresponds to the linux conventions, as seen below. The flat Json file can be found at the current directory as flatJson.json.
 
 ```console
-foo@mongodb-code-challenge:~$ cat test.json | node flattenJSON.js
+foo@mongodb-code-challenge:~$ cat test.json | node .
 ```
 
 ## Running the Tests
